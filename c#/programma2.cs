@@ -8,17 +8,17 @@ namespace xmlfails{
         public static void Main(string[] args){
             XmlDocument xDocu = new XmlDocument();
             xDocu.Load("text.xml");
-            XmlElement? xRoot = xDoc.DocumentElement;
+            XmlElement? xRoot = xDocu.DocumentElement;
 
-            XmlElement informElem = xDoc.CreateElement("information");
+            XmlElement informElem = xDocu.CreateElement("information");
  
-            XmlElement nameElem = xDoc.CreateElement("name");
-            XmlElement surnameElem = xDoc.CreateElement("surname");
-            XmlElement emailElem = xDoc.CreateElement("email");
+            XmlElement nameElem = xDocu.CreateElement("name");
+            XmlElement surnameElem = xDocu.CreateElement("surname");
+            XmlElement emailElem = xDocu.CreateElement("email");
  
-            XmlText nameText = xDoc.CreateTextNode("Edgars");
-            XmlText surnameText = xDoc.CreateTextNode("Jansons");
-            XmlText emailText = xDoc.CreateTextNode("Jansons8797@gmail.com");
+            XmlText nameText = xDocu.CreateTextNode("Edgars");
+            XmlText surnameText = xDocu.CreateTextNode("Jansons");
+            XmlText emailText = xDocu.CreateTextNode("Jansons8797@gmail.com");
  
             nameAttr.AppendChild(nameText);
             surnameElem.AppendChild(surnameText);
