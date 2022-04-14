@@ -3,5 +3,8 @@
 <information>
 <objekts>songs</objekts>
 <id>songs id</id>
+<name>dziesmas vards</name>
+<time>dziesmas laiks</time>
+<artist>dziesmas Autors</artist>
 </information>
 </songs>
