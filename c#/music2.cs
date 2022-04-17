@@ -21,11 +21,11 @@ namespace xmlMusic{
 
                 XmlElement informatElem = xmlDocu.CreateElement("information");
 
-                XmlElement nameElem = xDoc.CreateElement("name");
+                XmlElement nameElem = xmlDocu.CreateElement("name");
                 XmlElement surnameElem = xDoc.CreateElement("surname");
 
-                XmlText nameText = xDoc.CreateTextNode("Edgars");
-                XmlText surnameText = xDoc.CreateTextNode("Jansons");
+                XmlText nameText = xmlDocu.CreateTextNode("Edgars");
+                XmlText surnameText = xmlDocu.CreateTextNode("Jansons");
 
                 nameElem.AppendChild(nameText);
                 surnameElem.AppendChild(surnameText);
