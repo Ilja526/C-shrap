@@ -22,7 +22,7 @@ namespace xmlMusic{
                 XmlElement informatElem = xmlDocu.CreateElement("information");
 
                 XmlElement nameElem = xmlDocu.CreateElement("name");
-                XmlElement surnameElem = xDoc.CreateElement("surname");
+                XmlElement surnameElem = xmlDocu.CreateElement("surname");
 
                 XmlText nameText = xmlDocu.CreateTextNode("Edgars");
                 XmlText surnameText = xmlDocu.CreateTextNode("Jansons");
