@@ -17,15 +17,15 @@ namespace xmlfails{
             void alboms(){
                 XmlDocument xmlDocu = new XmlDocument();
                 xmlDocu.Load("albom.xml");
-                XmlElement? xRoot = xDoc.DocumentElement;
+                XmlElement? xRoot = xmlDocu.DocumentElement;
 
                 XmlElement informatElem = xmlDocu.CreateElement("information");
 
                 XmlElement nameElem = xDoc.CreateElement("name");
-                XmlElement album_artistElem = xDoc.CreateElement("albom");
+                XmlElement album_artistElem = xmlDocu.CreateElement("albom");
 
                 XmlText nameText = xDoc.CreateTextNode("Ilja");
-                XmlText album_artistText = xDoc.CreateTextNode("HARDIN");
+                XmlText album_artistText = xmlDocu.CreateTextNode("HARDIN");
 
                 nameElem.AppendChild(nameText);
                 album_artistElem.AppendChild(albumText);
