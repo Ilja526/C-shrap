@@ -17,15 +17,15 @@ namespace xmlAlboms{
             void songs(){
                 XmlDocument xmlDocu = new XmlDocument();
                 xmlDocu.Load("songs.xml");
-                XmlElement? xRoot = xDoc.DocumentElement;
+                XmlElement? xRoot = xmlDocu.DocumentElement;
 
                 XmlElement informatElem = xmlDocu.CreateElement("information");
 
-                XmlElement song_timeElem = xDoc.CreateElement("song_time");
-                XmlElement song_artistElem = xDoc.CreateElement("song_artist ");
+                XmlElement song_timeElem = xmlDocu.CreateElement("song_time");
+                XmlElement song_artistElem = xmlDocu.CreateElement("song_artist ");
 
-                XmlText song_timeText = xDoc.CreateTextNode("dziesmas laiks ");
-                XmlText song_artistText = xDoc.CreateTextNode("dziesmas Autors");
+                XmlText song_timeText = xmlDocu.CreateTextNode("dziesmas laiks ");
+                XmlText song_artistText = xmlDocu.CreateTextNode("dziesmas Autors");
 
                 song_timeElem.AppendChild(song_timeText);
                 song_artistElem.AppendChild(song_artistText);
