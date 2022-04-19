@@ -24,7 +24,7 @@ namespace xmlfails{
                 XmlElement nameElem = xmlDocu.CreateElement("name");
                 XmlElement album_artistElem = xmlDocu.CreateElement("albom");
 
-                XmlText nameText = xDoc.CreateTextNode("Ilja");
+                XmlText nameText = xDocu.CreateTextNode("Ilja");
                 XmlText album_artistText = xmlDocu.CreateTextNode("HARDIN");
 
                 nameElem.AppendChild(nameText);
