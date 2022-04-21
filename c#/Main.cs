@@ -24,6 +24,7 @@ namespace Base{
                         switch(str){
                             case "As it was":
                                 Console.WriteLine("This perfect msuic");
+                                xml2.music();
                                 break;
                             case "Envolver":
                                 Console.WriteLine("This great msuic");
