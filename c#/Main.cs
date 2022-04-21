@@ -55,6 +55,7 @@ namespace Base{
                         string str3 = Console.ReadLine();
                              switch(str3){
                                 case "Tautas mūzika":
+                                    xml3song();
                                     Console.WriteLine("No tautas mūzikas es ieteiktu 'Tu esi mans dārgais'");
                                     break;
                                 case "Jaz":
