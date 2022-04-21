@@ -39,6 +39,7 @@ namespace Base{
                              switch(str2){
                                 case "Soda Luv":
                                     Console.WriteLine("This perfect msuic");
+                                    xml1.alboms();
                                     break;
                                 case "Mayot":
                                     Console.WriteLine("This great msuic");
