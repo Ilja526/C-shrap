@@ -12,9 +12,9 @@ namespace Base{
             Console.WriteLine("4-Informācija par lietotājiem programma");
             Console.WriteLine("5-Programmas iziešana");
             Console.WriteLine("Tava izvēle:");
-            Programm3 xml1;
-            Programm5 xml2;
-            Programm7 xml3;
+            Programm1 xml1;
+            Programm2 xml2;
+            Programm3 xml3;
             int number;
             number = Convert.ToInt32(Console.ReadLine());
             switch(number){
