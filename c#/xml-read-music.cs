@@ -16,7 +16,7 @@ namespace xmlread_music{
                 XDocument xdoc = XDocument.Load("music.xml");
                 XElement? music = xdoc.Element("music");
                 if(music is not null){
-                    foreach (XElement information in alboms.Elements("information")){
+                    foreach (XElement information in music.Elements("information")){
                         XElement? objekts = information.Element("objekts");
                         XElement? id = information.Element("id");
                         XElement? name = information.Element("name");
