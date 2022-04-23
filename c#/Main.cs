@@ -64,7 +64,7 @@ namespace Base{
                                     break;
                                 case "Lego":
                                     Console.WriteLine("No tautas mūzikas es ieteiktu 'Hit the Road Jack. Ray Charles '");
-                                     read3.XMLread_songs();
+                                    read3.XMLread_songs();
                                     break;
                                 case "Romans":
                                     Console.WriteLine("No tautas mūzikas es ieteiktu 'Maijpuķīte'");
