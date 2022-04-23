@@ -15,6 +15,9 @@ namespace Base{
             Programm3 xml1;
             Programm5 xml2;
             Programm7 xml3;
+            Programm11 read1;
+            Programm16 read2;
+            Programm21 read3;
             int number;
             number = Convert.ToInt32(Console.ReadLine());
             switch(number){
@@ -44,6 +47,7 @@ namespace Base{
                                     break;
                                 case "Mayot":
                                     Console.WriteLine("This great msuic");
+                                    read1.XMLread();
                                     break;
                                 case "Miyagi & Andy Panda":
                                     Console.WriteLine("This middlie msuic");
@@ -58,8 +62,9 @@ namespace Base{
                                     xml3.songs();
                                     Console.WriteLine("No tautas mūzikas es ieteiktu 'Tu esi mans dārgais'");
                                     break;
-                                case "Jaz":
+                                case "Lego":
                                     Console.WriteLine("No tautas mūzikas es ieteiktu 'Hit the Road Jack. Ray Charles '");
+                                     read3.XMLread_songs();
                                     break;
                                 case "Romans":
                                     Console.WriteLine("No tautas mūzikas es ieteiktu 'Maijpuķīte'");
@@ -76,6 +81,7 @@ namespace Base{
                                     Console.WriteLine("Surname:Jansons");
                                     Console.WriteLine("Email:Jansons8797@gmail.com");
                                     Console.WriteLine("Telephons:45123854");
+                                    read2.XMLread_music();
                                     break;
                                 case "2 lietotajs":
                                     Console.WriteLine("Informacis par 2 lietotajs");
