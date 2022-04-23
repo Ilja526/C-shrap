@@ -24,8 +24,8 @@ namespace xmlAlboms{
                 XmlElement song_timeElem = xmlDocu.CreateElement("song_time");
                 XmlElement song_artistElem = xmlDocu.CreateElement("song_artist ");
 
-                XmlText song_timeText = xmlDocu.CreateTextNode("dziesmas laiks ");
-                XmlText song_artistText = xmlDocu.CreateTextNode("dziesmas Autors");
+                XmlText song_timeText = xmlDocu.CreateTextNode("2022 gads");
+                XmlText song_artistText = xmlDocu.CreateTextNode("Vaņa Dmitrienko");
 
                 song_timeElem.AppendChild(song_timeText);
                 song_artistElem.AppendChild(song_artistText);
