@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <songs>
 <information>
-<objekts>songs</objekts>
-<id>songs id</id>
-<name>dziesmas vards</name>
-<time>dziesmas laiks</time>
-<artist>dziesmas Autors</artist>
+<objekts>Lego</objekts>
+<id>13</id>
+<name>Lego</name>
+<time>2022 gads</time>
+<artist>Vaņa Dmitrienko</artist>
 </information>
 </songs>
