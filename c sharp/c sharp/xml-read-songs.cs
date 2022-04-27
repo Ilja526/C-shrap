@@ -22,11 +22,11 @@ namespace c_sharp
                         XElement time = information.Element("time");
                         XElement artist = information.Element("artist");
 
-                        Console.WriteLine($"Objekts: {objekts?.Value}");
-                        Console.WriteLine($"Id: {id?.Value}");
-                        Console.WriteLine($"Name: {name?.Value}");
-                        Console.WriteLine($"Time: {time?.Value}");
-                        Console.WriteLine($"Artist: {artist?.Value}");
+                        Console.WriteLine($"Objekts: {objekts.Value}");
+                        Console.WriteLine($"Id: {id.Value}");
+                        Console.WriteLine($"Name: {name.Value}");
+                        Console.WriteLine($"Time: {time.Value}");
+                        Console.WriteLine($"Artist: {artist.Value}");
                     }
                 }
             }

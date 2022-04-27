@@ -12,7 +12,7 @@ namespace c_sharp
     }
     class Programm11 : Programm10{
             public void XMLread(){
-                XDocument xdoc = XDocument.Load("alboms.xml");
+                XDocument xdoc = XDocument.Load("../../../Data/alboms.xml");
                 XElement? alboms = xdoc.Element("alboms");
                 if(alboms != null){
                     foreach(XElement information in alboms.Elements("information")){
@@ -22,11 +22,11 @@ namespace c_sharp
                         XElement year = information.Element("year");
                         XElement zanrs = information.Element("zanrs");
  
-                        Console.WriteLine($"Objekts: {objekts?.Value}");
-                        Console.WriteLine($"Id: {id?.Value}");
-                        Console.WriteLine($"Album_artists: {album_artists?.Value}");
-                        Console.WriteLine($"Year: {year?.Value}");
-                        Console.WriteLine($"Zanrs: {zanrs?.Value}");
+                        Console.WriteLine($"Objekts: {objekts.Value}");
+                        Console.WriteLine($"Id: {id.Value}");
+                        Console.WriteLine($"Album_artists: {album_artists.Value}");
+                        Console.WriteLine($"Year: {year.Value}");
+                        Console.WriteLine($"Zanrs: {zanrs.Value}");
  
                         Console.WriteLine();
                     }
