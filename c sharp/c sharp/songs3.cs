@@ -15,7 +15,7 @@ namespace c_sharp
         
         public void songs(){
             XmlDocument xmlDocu = new XmlDocument();
-            xmlDocu.Load("songs.xml");
+            xmlDocu.Load("../../../Data/songs.xml");
             XmlElement? xRoot = xmlDocu.DocumentElement;
 
             XmlElement informatElem = xmlDocu.CreateElement("information");
@@ -34,7 +34,7 @@ namespace c_sharp
 
             xRoot?.AppendChild(informatElem);
 
-            xmlDocu.Save("songs.xml");
+            xmlDocu.Save("../../../Data/songs.xml");
             }
     }
 }
