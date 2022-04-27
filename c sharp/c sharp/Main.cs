@@ -16,12 +16,8 @@ namespace c_sharp
                 Console.WriteLine("4-Informācija par lietotājiem programma");
                 Console.WriteLine("5-Programmas iziešana");
                 Console.WriteLine("Tava izvēle:");
-                //Programms3 xml1;
-                //Programms5 xml2;
-                //Programm7 xml3;
-                //Programm11 read1;
-                //Programm16 read2;
-                //Programm21 read3;
+                Alboms xml1;
+
                 int number;
                 number = Convert.ToInt32(Console.ReadLine());
                 switch (number)
