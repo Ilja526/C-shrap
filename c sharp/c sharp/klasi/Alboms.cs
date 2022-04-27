@@ -10,10 +10,10 @@ namespace c_sharp
         protected XmlDocument xmlDocu;
         protected XmlElement informatElem;
         protected XmlElement nameElem;
-        public void alboms()
+        public static void AddAlbom(string albomName,string s)
         {
             XmlDocument xmlDocu = new XmlDocument();
-            xmlDocu.Load("albom.xml");
+            xmlDocu.Load("../../../Data/alboms.xml");
             XmlElement xRoot = xmlDocu.DocumentElement;
 
             XmlElement informatElem = xmlDocu.CreateElement("information");
@@ -21,8 +21,8 @@ namespace c_sharp
             XmlElement nameElem = xmlDocu.CreateElement("name");
             XmlElement album_artistElem = xmlDocu.CreateElement("albom");
 
-            XmlText nameText = xmlDocu.CreateTextNode("Ilja");
-            XmlText album_artistText = xmlDocu.CreateTextNode("HARDIN");
+            XmlText nameText = xmlDocu.CreateTextNode(albomName);
+            XmlText album_artistText = xmlDocu.CreateTextNode(s);
 
             nameElem.AppendChild(nameText);
             album_artistElem.AppendChild(album_artistText);
@@ -32,7 +32,7 @@ namespace c_sharp
 
             xRoot?.AppendChild(informatElem);
 
-            xmlDocu.Save("albom.xml");
+            xmlDocu.Save("../../../Data/alboms.xml");
         }
     }
 }

@@ -15,8 +15,8 @@ namespace c_sharp
         
         public void songs(){
             XmlDocument xmlDocu = new XmlDocument();
-            xmlDocu.Load("songs.xml");
-            XmlElement? xRoot = xmlDocu.DocumentElement;
+            xmlDocu.Load("../../../Data/songs.xml");
+            XmlElement xRoot = xmlDocu.DocumentElement;
 
             XmlElement informatElem = xmlDocu.CreateElement("information");
 
@@ -32,9 +32,9 @@ namespace c_sharp
             informatElem.AppendChild(song_timeElem);
             informatElem.AppendChild(song_artistElem);
 
-            xRoot?.AppendChild(informatElem);
+            xRoot.AppendChild(informatElem);
 
-            xmlDocu.Save("songs.xml");
+            xmlDocu.Save("../../../Data/songs.xml");
             }
     }
 }

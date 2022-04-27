@@ -34,7 +34,7 @@ namespace c_sharp
 
             xRoot?.AppendChild(informatElem);
 
-            xmlDocu.Save("music.xml");
+            xmlDocu.Save("../../../Data/music.xml");
         }
     }
 }

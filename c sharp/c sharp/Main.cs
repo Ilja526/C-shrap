@@ -11,13 +11,12 @@ namespace c_sharp
             while(isWorking)
             {
                 Console.WriteLine("1-Rādīt informāciju par muziku");
-                Console.WriteLine("2-Meklējiet informāciju par alboms");
+                Console.WriteLine("2-Meklējiet informāciju par albomus");
                 Console.WriteLine("3-Mūzikas meklēšana pēc žanra");
-                Console.WriteLine("4-Informācija par lietotājiem programma");
-                Console.WriteLine("5-Programmas iziešana");
+                Console.WriteLine("4-Add new files");
+                Console.WriteLine("5-Informācija par lietotājiem programma");
+                Console.WriteLine("6-Programmas iziešana");
                 Console.WriteLine("Tava izvēle:");
-                Alboms xml1;
-
                 int number;
                 number = Convert.ToInt32(Console.ReadLine());
                 switch (number)
@@ -76,6 +75,12 @@ namespace c_sharp
                         }
                         break;
                     case 4:
+                        Console.WriteLine("Add albom name:");
+                        string albomName = Console.ReadLine();
+                        string sgrg = Console.ReadLine();
+                        Alboms.AddAlbom(albomName, sgrg);
+                        break;
+                    case 5:
                         Console.WriteLine("Kuru lietotāju vēlaties atrast?");
                         string str4 = Console.ReadLine();
                         switch (str4)
@@ -104,7 +109,7 @@ namespace c_sharp
                                 break;
                         }
                         break;
-                    case 5:
+                    case 6:
                         isWorking = false;
                         break;
                 }
