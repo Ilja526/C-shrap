@@ -13,7 +13,7 @@ namespace c_sharp
                 Console.WriteLine("1-Rādīt informāciju par muziku");
                 Console.WriteLine("2-Meklējiet informāciju par albomus");
                 Console.WriteLine("3-Mūzikas meklēšana pēc žanra");
-                Console.WriteLine("4-Add new files");
+                Console.WriteLine("4-Add new files, and data deletion");
                 Console.WriteLine("5-Informācija par lietotājiem programma");
                 Console.WriteLine("6-Parāda informāciju par failiem");
                 Console.WriteLine("7-Programmas iziešana");
@@ -102,6 +102,17 @@ namespace c_sharp
                                   string yeartext7 = Console.ReadLine();
                                   string zanrstext7 = Console.ReadLine();
                                   Songs.songs((objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
+                                  break;
+                           case "delete data in fail music":
+                                 Music.delete_faile_music();
+                                 break;
+                           case "delete data in fail music2":
+                                 Music.delete_faile_music2();
+                                 break;
+                           case "delete data in fail music3":
+                                 Music.delete_faile_music3();
+                                 break;
+                                      
                         }
                     case 5:
                         Console.WriteLine("Kuru lietotāju vēlaties atrast?");
