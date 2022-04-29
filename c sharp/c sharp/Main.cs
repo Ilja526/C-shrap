@@ -90,18 +90,22 @@ namespace c_sharp
                                 Addmusic.music(objekts, name, surname, status, email);
                                 break;
                             case "2 lietotajs":
-                                Console.WriteLine("Informacis par 2 lietotajs");
-                                Console.WriteLine("Name:Andris");
-                                Console.WriteLine("Surname:Kalniņš");
-                                Console.WriteLine("Email:Andris9435@gmail.com");
-                                Console.WriteLine("Telephons:94856713");
+                                Console.WriteLine("Ko vēlaties pievienot 2 lietotājam?");
+                                string objekts = Console.ReadLine();
+                                string name = Console.ReadLine();
+                                string surname = Console.ReadLine();
+                                string status = Console.ReadLine();
+                                string email = Console.ReadLine();
+                                Addmusic2.music2(objekts, name, surname, status, email);
                                 break;
                             case "3 lietotajs":
-                                Console.WriteLine("Informacis par 3 lietotajs");
-                                Console.WriteLine("Name:Juris");
-                                Console.WriteLine("Surname:Ozoliņš");
-                                Console.WriteLine("Email:Juris3476@gmail.com");
-                                Console.WriteLine("Telephons:68123782");
+                                Console.WriteLine("Ko vēlaties pievienot 3 lietotājam?");
+                                string objekts = Console.ReadLine();
+                                string name = Console.ReadLine();
+                                string surname = Console.ReadLine();
+                                string status = Console.ReadLine();
+                                string email = Console.ReadLine();
+                                Addmusic3.music3(objekts, name, surname, status, email);
                                 break;
                         }
                         break;
