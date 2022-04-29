@@ -112,8 +112,15 @@ namespace c_sharp
                              case "delete data in fail music3":
                                  Music12.delete_faile_music3();
                                  break;
+                             case "delete data in fail songs":
+                                 Songs12.delete_faile_songs();
+                                 break;
+                             case "delete data in fail alboms":
+                                 Alboms12.delete_faile_alboms();
+                                 break;
                                       
                         }
+                     break;
                     case 5:
                         Console.WriteLine("Kuru lietotāju vēlaties atrast?");
                         string str4 = Console.ReadLine();
