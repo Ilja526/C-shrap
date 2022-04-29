@@ -8,12 +8,12 @@ namespace c_sharp
 {
     class Programm10{
         protected XDocument xdoc;
-        protected XElement? alboms;
+        protected XElement alboms;
     }
     class Programm11 : Programm10{
             public void XMLread(){
                 XDocument xdoc = XDocument.Load("../../../Data/alboms.xml");
-                XElement? alboms = xdoc.Element("alboms");
+                XElement alboms = xdoc.Element("alboms");
                 if(alboms != null){
                     foreach(XElement information in alboms.Elements("information")){
                         XElement objekts = information.Element("objekts");
