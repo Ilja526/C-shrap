@@ -48,7 +48,7 @@ namespace c_sharp
             informatElem.AppendChild(statuElem);
             informatElem.AppendChild(emailElem);
 
-            xRoot?.AppendChild(informatElem);
+            xRoot.AppendChild(informatElem);
 
             xmlDocu.Save("../../../Data/music.xml");
         }
