@@ -15,7 +15,7 @@ namespace c_sharp
         public void music(string objetext, string idtext, string nametext, string surnametext, string statutext, string emailtext)
         {
             XmlDocument xmlDocu = new XmlDocument();
-            xmlDocu.Load(../../../Data/music.xml);
+            xmlDocu.Load("../../../Data/music.xml");
             XmlElement xRoot = xmlDocu.DocumentElement;
 
             XmlElement informatElem = xmlDocu.CreateElement("information");
