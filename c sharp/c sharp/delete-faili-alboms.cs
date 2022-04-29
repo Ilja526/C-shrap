@@ -11,7 +11,7 @@ namespace c_sharp{
 
         public void delete_faile_music(){
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("../../../Data/music.xml");
+            xDoc.Load("../../../Data/alboms.xml");
             XmlElement xRoot = xDoc.DocumentElement;
             XmlNode firstNode = xRoot.FirstChild;
             XmlNode secondNode = xRoot.SecondChild;
@@ -37,7 +37,7 @@ namespace c_sharp{
             if(sixthNode != null){
                 xRoot.RemoveChild(sixthNode);
             }  
-            xDoc.Save("../../../Data/music.xml");
+            xDoc.Save("../../../Data/alboms.xml");
         }
     }
 }
