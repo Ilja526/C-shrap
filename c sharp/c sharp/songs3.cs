@@ -13,7 +13,7 @@ namespace c_sharp
     }
     class Programm7 : Programm6{
         
-        public void songs(){
+        public void songs(string objetext, string idtext, string nametext, string song_timetext, string song_artisttext){
             XmlDocument xmlDocu = new XmlDocument();
             xmlDocu.Load("../../../Data/songs.xml");
             XmlElement xRoot = xmlDocu.DocumentElement;
@@ -26,13 +26,21 @@ namespace c_sharp
             XmlElement song_timeElem = xmlDocu.CreateElement("song_time");
             XmlElement song_artistElem = xmlDocu.CreateElement("song_artist ");
           
-            
-            XmlText song_timeText = xmlDocu.CreateTextNode("2022 gads");
-            XmlText song_artistText = xmlDocu.CreateTextNode("Vaņa Dmitrienko");
+            XmlText objeText = xmlDocu.CreateTextNode(objetext);
+            XmlText idText = xmlDocu.CreateTextNode(idtext);
+            XmlText nameText = xmlDocu.CreateTextNode(nametext);
+            XmlText song_timeText = xmlDocu.CreateTextNode(song_timetext);
+            XmlText song_artistText = xmlDocu.CreateTextNode(song_artisttext);
 
+            objeElem.AppendChild(objeText);
+            idElem.AppendChild(idText);
+            nameElem.AppendChild(nameText);
             song_timeElem.AppendChild(song_timeText);
             song_artistElem.AppendChild(song_artistText);
-
+         
+            informatElem.AppendChild(objeElem);
+            informatElem.AppendChild(idElem);
+            informatElem.AppendChild(nameElem);
             informatElem.AppendChild(song_timeElem);
             informatElem.AppendChild(song_artistElem);
 
