@@ -70,7 +70,7 @@ namespace c_sharp
                         }
                         break;
                     case 4:
-                        Console.WriteLine("Add albom name:");
+                        Console.WriteLine("Add albom datus:");
                         string albomName = Console.ReadLine();
                         string word = Console.ReadLine();
                         Alboms.AddAlbom(albomName, word);
@@ -86,7 +86,6 @@ namespace c_sharp
                                 Console.WriteLine("Surname:Jansons");
                                 Console.WriteLine("Email:Jansons8797@gmail.com");
                                 Console.WriteLine("Telephons:45123854");
-                                //read2.XMLread_music();
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Informacis par 2 lietotajs");
