@@ -12,25 +12,41 @@ namespace c_sharp
         protected XmlElement nameElem;
         protected XmlElement surnameElem;
 
-        public void music(string filename)
+        public void music()
         {
-            XmlDocument xmlDocu = new XmlDocument();
-            xmlDocu.Load(filename);
+            XmlDocument xmlDocu = new XmlDocument(string objetext, string idtext, string nametext, string surnametext, string statutext, string emailtext);
+            xmlDocu.Load(../../../Data/music.xml);
             XmlElement xRoot = xmlDocu.DocumentElement;
 
             XmlElement informatElem = xmlDocu.CreateElement("information");
-
+            
+            XmlElement objeElem = xmlDocu.CreateElement("objekts");
+            XmlElement idElem = xmlDocu.CreateElement("id");
             XmlElement nameElem = xmlDocu.CreateElement("name");
             XmlElement surnameElem = xmlDocu.CreateElement("surname");
-
-            XmlText nameText = xmlDocu.CreateTextNode("Edgars");
-            XmlText surnameText = xmlDocu.CreateTextNode("Jansons");
-
+            XmlElement statuElem = xmlDocu.CreateElement("status");
+            XmlElement emailElem = xmlDocu.CreateElement("email");
+            
+            XmlText objeText = xmlDocu.CreateTextNode(objetext);
+            XmlText idText = xmlDocu.CreateTextNode(idtext);
+            XmlText nameText = xmlDocu.CreateTextNode(nametext);
+            XmlText surnameText = xmlDocu.CreateTextNode(surnametext);
+            XmlText statuText = xmlDocu.CreateTextNode(statutext);
+            XmlText emailText = xmlDocu.CreateTextNode(emailtext);
+            
+            objeElem.AppendChild(objeText);
+            idElem.AppendChild(idText);
             nameElem.AppendChild(nameText);
             surnameElem.AppendChild(surnameText);
-
+            statuElem.AppendChild(statuText);
+            emailElem.AppendChild(emailText);
+            
+            informatElem.AppendChild(objeElem);
+            informatElem.AppendChild(idElem);
             informatElem.AppendChild(nameElem);
             informatElem.AppendChild(surnameElem);
+            informatElem.AppendChild(statuElem);
+            informatElem.AppendChild(emailElem);
 
             xRoot?.AppendChild(informatElem);
 
