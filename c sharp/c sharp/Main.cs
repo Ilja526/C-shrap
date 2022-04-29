@@ -71,11 +71,29 @@ namespace c_sharp
                         }
                         break;
                     case 4:
-                        Console.WriteLine("Add albom datus:");
-                        string albomName = Console.ReadLine();
-                        string word = Console.ReadLine();
-                        Alboms.AddAlbom(albomName, word);
-                        break;
+                        string str6 = Console.ReadLine();
+                        switch(str6)
+                        {
+                            case "alboms.cs":
+                                  Console.WriteLine("Add albom datus:");
+                                  string objetext6 = Console.ReadLine();
+                                  string idtext6 = Console.ReadLine();
+                                  string nametext6 = Console.ReadLine();
+                                  string album_artisttext6 = Console.ReadLine();
+                                  string yeartext6 = Console.ReadLine();
+                                  string zanrstext6 = Console.ReadLine();
+                                  Alboms.AddAlbom(objetext6, idtext6, nametext6, album_artisttext6, yeartex6, zanrstext6);
+                                  break;
+                            case "songs.cs":
+                                  Console.WriteLine("Add songs datus:");
+                                  string objetext7 = Console.ReadLine();
+                                  string idtext7 = Console.ReadLine();
+                                  string nametext7 = Console.ReadLine();
+                                  string album_artisttext7 = Console.ReadLine();
+                                  string yeartext7 = Console.ReadLine();
+                                  string zanrstext7 = Console.ReadLine();
+                                  Songs.songs((objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
+                        }
                     case 5:
                         Console.WriteLine("Kuru lietotāju vēlaties atrast?");
                         string str4 = Console.ReadLine();
@@ -123,7 +141,9 @@ namespace c_sharp
                                 break;
                             case "songs.cs":
                                 ReadSongs.XMLread_songs();
+                                break;
                         }
+                        break;
                     case 7:
                         isWorking = false;
                         break;
