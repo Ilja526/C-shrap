@@ -20,9 +20,13 @@ namespace c_sharp
 
             XmlElement informatElem = xmlDocu.CreateElement("information");
 
+            XmlElement objeElem = xmlDocu.CreateElement("objekts");
+            XmlElement idElem = xmlDocu.CreateElement("id");
+            XmlElement nameElem = xmlDocu.CreateElement("name");
             XmlElement song_timeElem = xmlDocu.CreateElement("song_time");
             XmlElement song_artistElem = xmlDocu.CreateElement("song_artist ");
-
+          
+            
             XmlText song_timeText = xmlDocu.CreateTextNode("2022 gads");
             XmlText song_artistText = xmlDocu.CreateTextNode("Vaņa Dmitrienko");
 
