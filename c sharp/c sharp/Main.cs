@@ -15,7 +15,8 @@ namespace c_sharp
                 Console.WriteLine("3-Mūzikas meklēšana pēc žanra");
                 Console.WriteLine("4-Add new files");
                 Console.WriteLine("5-Informācija par lietotājiem programma");
-                Console.WriteLine("6-Programmas iziešana");
+                Console.WriteLine("6-Parāda informāciju par failiem");
+                Console.WriteLine("7-Programmas iziešana");
                 Console.WriteLine("Tava izvēle:");
                 int number;
                 number = Convert.ToInt32(Console.ReadLine());
@@ -110,6 +111,20 @@ namespace c_sharp
                         }
                         break;
                     case 6:
+                        Console.WriteLine("Kuru failu vēlaties atlasīt skatīšanai?");
+                        string str5 = Console.ReadLine();
+                        switch(str5)
+                        {
+                            case "alboms.cs":
+                                ReadAlboms.XMLread();
+                                break;
+                            case "music.cs":
+                                ReadMusic.XMLread_music();
+                                break;
+                            case "songs.cs":
+                                ReadSongs.XMLread_songs();
+                        }
+                    case 7:
                         isWorking = false;
                         break;
                 }
