@@ -104,13 +104,13 @@ namespace c_sharp
                                   Songs.songs((objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
                                   break;
                              case "delete data in fail music":
-                                 Music.delete_faile_music();
+                                 Music10.delete_faile_music();
                                  break;
                              case "delete data in fail music2":
-                                 Music.delete_faile_music2();
+                                 Music11.delete_faile_music2();
                                  break;
                              case "delete data in fail music3":
-                                 Music.delete_faile_music3();
+                                 Music12.delete_faile_music3();
                                  break;
                                       
                         }
