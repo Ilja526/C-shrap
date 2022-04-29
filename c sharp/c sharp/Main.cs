@@ -29,12 +29,15 @@ namespace c_sharp
                         {
                             case "As it was":
                                 Console.WriteLine("This perfect msuic");
+                                Console.WriteLine("https://youtu.be/H5v3kku4y6Q");
                                 break;
                             case "Envolver":
                                 Console.WriteLine("This great msuic");
+                                Console.WriteLine("https://youtu.be/hFCjGiawJi4");
                                 break;
                             case "Plan A":
                                 Console.WriteLine("This middlie msuic");
+                                Console.WriteLine("https://youtu.be/dmW68lzaaqs");
                                 break;
                         }
                         break;
@@ -45,12 +48,15 @@ namespace c_sharp
                         {
                             case "Soda Luv":
                                 Console.WriteLine("This perfect msuic");
+                                Console.WriteLine("https://youtu.be/64_7295piLg");
                                 break;
                             case "Mayot":
                                 Console.WriteLine("This great msuic");
+                                Console.WriteLine("https://youtu.be/brsJw3U6AGU");
                                 break;
                             case "Miyagi & Andy Panda":
                                 Console.WriteLine("This middlie msuic");
+                                Console.WriteLine("https://youtu.be/4EfM6rPmxow");
                                 break;
                         }
                         break;
@@ -61,12 +67,15 @@ namespace c_sharp
                         {
                             case "Tautas mūzika":
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Tu esi mans dārgais'");
+                                Console.WriteLine("");
                                 break;
                             case "Lego":
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Hit the Road Jack. Ray Charles'");
+                                Console.WriteLine("https://youtu.be/Kq80fW90laE");
                                 break;
                             case "Romans":
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Maijpuķīte'");
+                                Console.WriteLine("https://youtu.be/Ntd22exVyEY");
                                 break;
                         }
                         break;
