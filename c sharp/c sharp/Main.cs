@@ -81,11 +81,13 @@ namespace c_sharp
                         switch (str4)
                         {
                             case "1 lietotajs":
-                                Console.WriteLine("Informacis par 1 lietotajs");
-                                Console.WriteLine("Name:Edgars");
-                                Console.WriteLine("Surname:Jansons");
-                                Console.WriteLine("Email:Jansons8797@gmail.com");
-                                Console.WriteLine("Telephons:45123854");
+                                Console.WriteLine("Ko vēlaties pievienot 1 lietotājam?");
+                                string objekts = Console.ReadLine();
+                                string name = Console.ReadLine();
+                                string surname = Console.ReadLine();
+                                string status = Console.ReadLine();
+                                string email = Console.ReadLine();
+                                Addmusic.music(objekts, name, surname, status, email);
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Informacis par 2 lietotajs");
