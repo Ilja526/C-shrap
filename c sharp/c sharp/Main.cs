@@ -101,30 +101,30 @@ namespace c_sharp
                         {
                             case "1 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 1 lietotājam?");
-                                string objekts = Console.ReadLine();
-                                string name = Console.ReadLine();
-                                string surname = Console.ReadLine();
-                                string status = Console.ReadLine();
-                                string email = Console.ReadLine();
-                                Addmusic.music(objekts, name, surname, status, email);
+                                string objekts1 = Console.ReadLine();
+                                string name1 = Console.ReadLine();
+                                string surname1 = Console.ReadLine();
+                                string status1 = Console.ReadLine();
+                                string email1 = Console.ReadLine();
+                                Addmusic.music(objekts1, name1, surname1, status1, email1);
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 2 lietotājam?");
-                                string objekts = Console.ReadLine();
-                                string name = Console.ReadLine();
-                                string surname = Console.ReadLine();
-                                string status = Console.ReadLine();
-                                string email = Console.ReadLine();
-                                Addmusic2.music2(objekts, name, surname, status, email);
+                                string objekts2 = Console.ReadLine();
+                                string name2 = Console.ReadLine();
+                                string surname2 = Console.ReadLine();
+                                string status2 = Console.ReadLine();
+                                string email2 = Console.ReadLine();
+                                Addmusic2.music2(objekts2, name2, surname2, status2, email2);
                                 break;
                             case "3 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 3 lietotājam?");
-                                string objekts = Console.ReadLine();
-                                string name = Console.ReadLine();
-                                string surname = Console.ReadLine();
-                                string status = Console.ReadLine();
-                                string email = Console.ReadLine();
-                                Addmusic3.music3(objekts, name, surname, status, email);
+                                string objekts3 = Console.ReadLine();
+                                string name3 = Console.ReadLine();
+                                string surname3 = Console.ReadLine();
+                                string status3 = Console.ReadLine();
+                                string email3 = Console.ReadLine();
+                                Addmusic3.music3(objekts3, name3, surname3, status3, email3);
                                 break;
                         }
                         break;
