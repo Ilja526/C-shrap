@@ -28,7 +28,6 @@ namespace c_sharp
                         {
                             case "As it was":
                                 Console.WriteLine("This perfect msuic");
-                                //xml2.music();
                                 break;
                             case "Envolver":
                                 Console.WriteLine("This great msuic");
@@ -45,11 +44,9 @@ namespace c_sharp
                         {
                             case "Soda Luv":
                                 Console.WriteLine("This perfect msuic");
-                                //xml1.alboms();
                                 break;
                             case "Mayot":
                                 Console.WriteLine("This great msuic");
-                                //read1.XMLread();
                                 break;
                             case "Miyagi & Andy Panda":
                                 Console.WriteLine("This middlie msuic");
@@ -62,12 +59,10 @@ namespace c_sharp
                         switch (str3)
                         {
                             case "Tautas mūzika":
-                                //xml3.songs();
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Tu esi mans dārgais'");
                                 break;
                             case "Lego":
-                                Console.WriteLine("No tautas mūzikas es ieteiktu 'Hit the Road Jack. Ray Charles '");
-                                //read3.XMLread_songs();
+                                Console.WriteLine("No tautas mūzikas es ieteiktu 'Hit the Road Jack. Ray Charles'");
                                 break;
                             case "Romans":
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Maijpuķīte'");
@@ -77,8 +72,8 @@ namespace c_sharp
                     case 4:
                         Console.WriteLine("Add albom name:");
                         string albomName = Console.ReadLine();
-                        string sgrg = Console.ReadLine();
-                        Alboms.AddAlbom(albomName, sgrg);
+                        string word = Console.ReadLine();
+                        Alboms.AddAlbom(albomName, word);
                         break;
                     case 5:
                         Console.WriteLine("Kuru lietotāju vēlaties atrast?");
