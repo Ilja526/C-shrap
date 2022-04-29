@@ -103,13 +103,13 @@ namespace c_sharp
                                   string zanrstext7 = Console.ReadLine();
                                   Songs.songs((objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
                                   break;
-                            case "delete data in fail music":
+                             case "delete data in fail music":
                                  Music.delete_faile_music();
                                  break;
-                            case "delete data in fail music2":
+                             case "delete data in fail music2":
                                  Music.delete_faile_music2();
                                  break;
-                            case "delete data in fail music3":
+                             case "delete data in fail music3":
                                  Music.delete_faile_music3();
                                  break;
                                       
