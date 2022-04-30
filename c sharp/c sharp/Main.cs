@@ -101,7 +101,7 @@ namespace c_sharp
                                   string album_artisttext7 = Console.ReadLine();
                                   string yeartext7 = Console.ReadLine();
                                   string zanrstext7 = Console.ReadLine();
-                                  Songs.songs((objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
+                                  Songs.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
                                   break;
                              case "delete data in fail music":
                                  Music10.delete_faile_music();
@@ -128,12 +128,12 @@ namespace c_sharp
                         {
                             case "1 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 1 lietotājam?");
-                                string objekts = Console.ReadLine();
-                                string name = Console.ReadLine();
-                                string surname = Console.ReadLine();
-                                string status = Console.ReadLine();
-                                string email = Console.ReadLine();
-                                Addmusic.music(objekts, name, surname, status, email);
+                                string objekts1 = Console.ReadLine();
+                                string name1 = Console.ReadLine();
+                                string surname1 = Console.ReadLine();
+                                string status1 = Console.ReadLine();
+                                string email1 = Console.ReadLine();
+                                Addmusic.music(objekt1s, nam1e, surname1, status1, email1);
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 2 lietotājam?");
