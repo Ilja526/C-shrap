@@ -67,7 +67,7 @@ namespace c_sharp
                         {
                             case "Tautas mūzika":
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Tu esi mans dārgais'");
-                                Console.WriteLine("");
+                                Console.WriteLine("https://youtu.be/wJwK7hC5y0Y");
                                 break;
                             case "Lego":
                                 Console.WriteLine("No tautas mūzikas es ieteiktu 'Hit the Road Jack. Ray Charles'");
