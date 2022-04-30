@@ -128,12 +128,12 @@ namespace c_sharp
                         {
                             case "1 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 1 lietotājam?");
-                                string objekts1 = Console.ReadLine();
-                                string name1 = Console.ReadLine();
-                                string surname1 = Console.ReadLine();
-                                string status1 = Console.ReadLine();
-                                string email1 = Console.ReadLine();
-                                Addmusic.music(objekts1, name1, surname1, status1, email1);
+                                string objekts = Console.ReadLine();
+                                string name = Console.ReadLine();
+                                string surname = Console.ReadLine();
+                                string status = Console.ReadLine();
+                                string email = Console.ReadLine();
+                                Addmusic.music(objekts, name, surname, status, email);
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 2 lietotājam?");
