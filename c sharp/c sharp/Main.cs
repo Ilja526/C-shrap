@@ -166,6 +166,12 @@ namespace c_sharp
                             case "music.cs":
                                 ReadMusic.XMLread_music();
                                 break;
+                            case "music2.cs":
+                                ReadMusic2.XMLread_music2();
+                                break;
+                            case "music3.cs":
+                                ReadMusic3.XMLread_music3();
+                                break;
                             case "songs.cs":
                                 ReadSongs.XMLread_songs();
                                 break;
