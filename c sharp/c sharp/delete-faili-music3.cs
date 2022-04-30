@@ -11,7 +11,7 @@ namespace c_sharp{
 
         public void delete_faile_music3(){
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("../../../Data/music.xml");
+            xDoc.Load("../../../Data/music3.xml");
             XmlElement xRoot = xDoc.DocumentElement;
             XmlNode firstNode = xRoot.FirstChild;
             XmlNode secondNode = xRoot.SecondChild;
