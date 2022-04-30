@@ -17,8 +17,8 @@ namespace c_sharp{
             XmlNode secondNode = xRoot.SecondChild;
             XmlNode thirdNode = xRoot.ThirdChild;
             XmlNode fourthNode = xRoot.FourthChild;
-            XmlNode fifthNode = xRoot.FifthNode;
-            XmlNode sixthNode = xRoot.SixthNode;
+            XmlNode fifthNode = xRoot.FifthChild;
+            XmlNode sixthNode = xRoot.SixthChild;
             if(firstNode != null){
                 xRoot.RemoveChild(firstNode);
             }
