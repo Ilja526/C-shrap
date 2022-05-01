@@ -12,7 +12,7 @@ namespace c_sharp{
 
         public void delete_faile_music(){
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("../../../Data/music.xml");
+            xDoc.Load("../../../Data/music.xml");//Šeit mēs norādām ceļu uz failu, ierakstot tā nosaukumu.
             XmlElement xRoot = xDoc.DocumentElement;
             XmlNode firstNode = xRoot.FirstChild;
             XmlNode secondNode = xRoot.SecondChild;
@@ -20,7 +20,7 @@ namespace c_sharp{
             XmlNode fourthNode = xRoot.FourthChild;
             XmlNode fifthNode = xRoot.FifthChild;
             XmlNode sixthNode = xRoot.SixthChild;
-            if(firstNode != null){
+            if(firstNode != null){ //Šeit, izmantojot operatoru if, mēs pārbaudām, vai failā ir mezgli vai nav.
                 xRoot.RemoveChild(firstNode);
             }
             if(secondNode != null){
