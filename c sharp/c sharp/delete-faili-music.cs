@@ -5,6 +5,7 @@ using System.Xml;
 using System.IO;
 namespace c_sharp{
     class Programm40{
+        //Šos mainīgos aizsargā protected funkcija, tāpēc tiem var piekļūt, tikai izmantojot metodi.
         protected XmlDocument xDoc;
         protected XmlElement xRoot;
         protected XmlNode firstNode;
