@@ -9,7 +9,7 @@ namespace c_sharp{
         protected XmlElement xRoot;
         protected XmlNode firstNode;
 
-        public void delete_faile_music2(){
+        public static void delete_faile_music2(){
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load("../../../Data/music2.xml");
             XmlElement xRoot = xDoc.DocumentElement;
