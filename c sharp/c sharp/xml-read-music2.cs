@@ -11,7 +11,7 @@ namespace c_sharp
         protected XElement music;
     }
     class Programm123 : Programm100{
-            public void XMLread_music2(){
+            public static void XMLread_music2(){
                 XDocument xdoc = XDocument.Load("../../../Data/music2.xml");
                 XElement music = xdoc.Element("music");
                 if(music != null){
