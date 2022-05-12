@@ -11,7 +11,7 @@ namespace c_sharp
         protected XElement alboms;
     }
     class Programm11 : Programm10{
-            public void XMLread(){
+            public static void XMLread(){
                 XDocument xdoc = XDocument.Load("../../../Data/alboms.xml");
                 XElement alboms = xdoc.Element("alboms");
                 if(alboms != null){
