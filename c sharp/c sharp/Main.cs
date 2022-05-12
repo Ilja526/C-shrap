@@ -128,29 +128,32 @@ namespace c_sharp
                             case "1 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 1 lietotājam?");
                                 string objekts1 = Console.ReadLine();
+                                string id1 = Console.ReadLine();
                                 string name1 = Console.ReadLine();
                                 string surname1 = Console.ReadLine();
                                 string status1 = Console.ReadLine();
                                 string email1 = Console.ReadLine();
-                                Programm4.music(objekts1 , name1, surname1, status1, email1);
+                                Programm4.music(objekts1, id1, name1, surname1, status1, email1);
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 2 lietotājam?");
                                 string objekts2 = Console.ReadLine();
+                                string id2 = Console.ReadLine();
                                 string name2 = Console.ReadLine();
                                 string surname2 = Console.ReadLine();
                                 string status2 = Console.ReadLine();
                                 string email2 = Console.ReadLine();
-                                Programm6.music2(objekts2, name2, surname2, status2, email2);
+                                Programm6.music2(objekts2, id2, name2, surname2, status2, email2);
                                 break;
                             case "3 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 3 lietotājam?");
                                 string objekts3 = Console.ReadLine();
+                                string id3 = Console.ReadLine();
                                 string name3 = Console.ReadLine();
                                 string surname3 = Console.ReadLine();
                                 string status3 = Console.ReadLine();
                                 string email3 = Console.ReadLine();
-                                Programm9.music3(objekts3, name3, surname3, status3, email3);
+                                Programm9.music3(objekts3, id3, name3, surname3, status3, email3);
                                 break;
                         }
                         break;
