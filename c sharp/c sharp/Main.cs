@@ -99,8 +99,7 @@ namespace c_sharp
                                   string nametext7 = Console.ReadLine();
                                   string album_artisttext7 = Console.ReadLine();
                                   string yeartext7 = Console.ReadLine();
-                                  string zanrstext7 = Console.ReadLine();
-                                  Programm7.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
+                                  Programm7.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartex7);
                                   break;
                              case "delete data in fail music":
                                  Programm60.delete_faile_music();
