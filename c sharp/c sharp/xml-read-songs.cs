@@ -11,7 +11,7 @@ namespace c_sharp
         protected XElement songs;
     }
     class Programm21 : Programm20{
-        public void XMLread_songs(){
+        public static void XMLread_songs(){
                 XDocument xdoc = XDocument.Load("songs.xml");
                 XElement songs = xdoc.Element("songs");
                 if(songs != null){
