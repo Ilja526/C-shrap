@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using System.IO;
 namespace c_sharp{
-    class Programm40{
+    class Programm65{
         protected XmlDocument xDoc;
         protected XmlElement xRoot;
         protected XmlNode firstNode;
