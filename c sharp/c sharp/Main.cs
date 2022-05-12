@@ -83,8 +83,8 @@ namespace c_sharp
                         string str6 = Console.ReadLine();
                         switch(str6)
                         {
+                            Console.WriteLine("Add albom datus:");
                             case "alboms.cs":
-                                  Console.WriteLine("Add albom datus:");
                                   string objetext6 = Console.ReadLine();
                                   string idtext6 = Console.ReadLine();
                                   string nametext6 = Console.ReadLine();
@@ -93,6 +93,7 @@ namespace c_sharp
                                   string zanrstext7 = Console.ReadLine();
                                   Alboms.AddAlbom(objetext6, idtext6, nametext6, album_artisttext6, yeartext6, zanrstext7);
                                   break;
+                            Console.WriteLine("Add songs datus:");
                             case "songs.cs":
                                   Console.WriteLine("Add songs datus:");
                                   string objetext7 = Console.ReadLine();
@@ -102,18 +103,23 @@ namespace c_sharp
                                   string yeartext7 = Console.ReadLine();
                                   Programm7.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartext7);
                                   break;
+                             Console.WriteLine("Delete data in fail music:");
                              case "delete data in fail music":
                                  Programm60.delete_faile_music();
                                  break;
+                             Console.WriteLine("Delete data in fail music2:");
                              case "delete data in fail music2":
                                  Programm40.delete_faile_music2();
                                  break;
+                             Console.WriteLine("Delete data in fail music3:");
                              case "delete data in fail music3":
                                  Programm71.delete_faile_music3();
                                  break;
+                             Console.WriteLine("Delete data in fail songs:");
                              case "delete data in fail songs":
                                  Programm72.delete_faile_songs();
                                  break;
+                             Console.WriteLine("Delete data in fail alboms:");
                              case "delete data in fail alboms":
                                  Programm65.delete_faile_alboms();
                                  break;
