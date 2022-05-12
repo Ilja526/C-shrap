@@ -90,8 +90,7 @@ namespace c_sharp
                                   string nametext6 = Console.ReadLine();
                                   string album_artisttext6 = Console.ReadLine();
                                   string yeartext6 = Console.ReadLine();
-                                  string zanrstext6 = Console.ReadLine();
-                                  Alboms.AddAlbom(objetext6, idtext6, nametext6, album_artisttext6, yeartex6, zanrstext6);
+                                  Alboms.AddAlbom(objetext6, idtext6, nametext6, album_artisttext6, yeartex6);
                                   break;
                             case "songs.cs":
                                   Console.WriteLine("Add songs datus:");
