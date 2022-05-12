@@ -6,12 +6,12 @@ using System.IO;
 using System.Xml.Linq;
 namespace c_sharp
 {
-    class Programm15{
+    class Programm55{
         protected XDocument xdoc;
         protected XElement music;
     }
-    class Programm16 : Programm15{
-            public void XMLread_music3(){
+    class Programm58 : Programm55{
+            public static void XMLread_music3(){
                 XDocument xdoc = XDocument.Load("../../../Data/music2.xml");
                 XElement music = xdoc.Element("music");
                 if(music != null){
