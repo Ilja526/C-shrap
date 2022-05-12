@@ -12,7 +12,7 @@ namespace c_sharp
         protected XmlElement nameElem;
         protected XmlElement surnameElem;
 
-        public void music2(string objetext, string idtext, string nametext, string surnametext, string statutext, string emailtext)
+        public static void music2(string objetext, string idtext, string nametext, string surnametext, string statutext, string emailtext)
         {
             XmlDocument xmlDocu = new XmlDocument();
             xmlDocu.Load("../../../Data/music2.xml");
