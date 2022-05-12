@@ -91,7 +91,7 @@ namespace c_sharp
                                   string album_artisttext6 = Console.ReadLine();
                                   string yeartext6 = Console.ReadLine();
                                   string zanrstext7 = Console.ReadLine();
-                                  Alboms.AddAlbom(objetext6, idtext6, nametext6, album_artisttext6, yeartex6, zanrstext7);
+                                  Alboms.AddAlbom(objetext6, idtext6, nametext6, album_artisttext6, yeartext6, zanrstext7);
                                   break;
                             case "songs.cs":
                                   Console.WriteLine("Add songs datus:");
@@ -100,7 +100,7 @@ namespace c_sharp
                                   string nametext7 = Console.ReadLine();
                                   string album_artisttext7 = Console.ReadLine();
                                   string yeartext7 = Console.ReadLine();
-                                  Programm7.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartex7);
+                                  Programm7.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartext6);
                                   break;
                              case "delete data in fail music":
                                  Programm60.delete_faile_music();
