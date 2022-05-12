@@ -133,7 +133,7 @@ namespace c_sharp
                                 string surname1 = Console.ReadLine();
                                 string status1 = Console.ReadLine();
                                 string email1 = Console.ReadLine();
-                                Addmusic.music(objekt1s, nam1e, surname1, status1, email1);
+                                Addmusic.music(objekts1 , name1, surname1, status1, email1);
                                 break;
                             case "2 lietotajs":
                                 Console.WriteLine("Ko vēlaties pievienot 2 lietotājam?");
