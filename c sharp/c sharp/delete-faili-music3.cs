@@ -37,7 +37,7 @@ namespace c_sharp{
             if(sixthNode != null){
                 xRoot.RemoveChild(sixthNode);
             }  
-            xDoc.Save("../../../Data/music.xml");
+            xDoc.Save("../../../Data/music3.xml");
         }
     }
 }
