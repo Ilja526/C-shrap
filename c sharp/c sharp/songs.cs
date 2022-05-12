@@ -13,7 +13,7 @@ namespace c_sharp
     }
     class Programm7 : Programm56{
         
-        public void songs(string objetext, string idtext, string nametext, string song_timetext, string song_artisttext){
+        public static void songs(string objetext, string idtext, string nametext, string song_timetext, string song_artisttext){
             XmlDocument xmlDocu = new XmlDocument();
             xmlDocu.Load("../../../Data/songs.xml");
             XmlElement xRoot = xmlDocu.DocumentElement;
