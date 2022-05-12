@@ -9,7 +9,7 @@ namespace c_sharp{
         protected XmlElement xRoot;
         protected XmlNode firstNode;
 
-        public void delete_faile_alboms(){
+        public static void delete_faile_alboms(){
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load("../../../Data/alboms.xml");
             XmlElement xRoot = xDoc.DocumentElement;
