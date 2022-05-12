@@ -5,13 +5,13 @@ using System.Xml;
 using System.IO;
 namespace c_sharp
 {
-    class Programm6{
+    class Programm56{
         protected XmlDocument xmlDocu;
         protected XmlElement informatElem;
         protected XmlElement nameElem;
         protected XmlElement surnameElem;   
     }
-    class Programm7 : Programm6{
+    class Programm7 : Programm56{
         
         public void songs(string objetext, string idtext, string nametext, string song_timetext, string song_artisttext){
             XmlDocument xmlDocu = new XmlDocument();
