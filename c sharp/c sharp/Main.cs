@@ -100,22 +100,22 @@ namespace c_sharp
                                   string album_artisttext7 = Console.ReadLine();
                                   string yeartext7 = Console.ReadLine();
                                   string zanrstext7 = Console.ReadLine();
-                                  Songs.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
+                                  Programm7.songs(objetext7, idtext7, nametext7, album_artisttext7, yeartex7, zanrstext7);
                                   break;
                              case "delete data in fail music":
-                                 Music10.delete_faile_music();
+                                 Programm60.delete_faile_music();
                                  break;
                              case "delete data in fail music2":
-                                 Music11.delete_faile_music2();
+                                 Programm40.delete_faile_music2();
                                  break;
                              case "delete data in fail music3":
-                                 Music12.delete_faile_music3();
+                                 Programm71.delete_faile_music3();
                                  break;
                              case "delete data in fail songs":
-                                 Songs12.delete_faile_songs();
+                                 Programm72.delete_faile_songs();
                                  break;
                              case "delete data in fail alboms":
-                                 Alboms12.delete_faile_alboms();
+                                 Programm65.delete_faile_alboms();
                                  break;
                                       
                         }
