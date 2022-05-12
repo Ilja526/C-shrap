@@ -160,19 +160,19 @@ namespace c_sharp
                         switch(str5)
                         {
                             case "alboms.cs":
-                                ReadAlboms.XMLread();
+                                Programm11.XMLread();
                                 break;
                             case "music.cs":
-                                ReadMusic.XMLread_music();
+                                Programm16.XMLread_music();
                                 break;
                             case "music2.cs":
-                                ReadMusic2.XMLread_music2();
+                                Programm123.XMLread_music2();
                                 break;
                             case "music3.cs":
-                                ReadMusic3.XMLread_music3();
+                                Programm58.XMLread_music3();
                                 break;
                             case "songs.cs":
-                                ReadSongs.XMLread_songs();
+                                Programm21.XMLread_songs();
                                 break;
                         }
                         break;
